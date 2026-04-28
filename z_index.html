@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       .container{
+        position: relative;
+        margin: 100px;
+       
+       }
+       div{
+         width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        position: absolute;
+        text-align: center;
+       }
+       .blue{
+        
+        background-color: blue;
+        left: 60px;z-index: 1;
+       }
+       .red{
+        background-color:red;
+        left:80px;
+        z-index: 2;
+       }
+       .green{
+        background-color: green;
+        left:120px;
+        z-index: 3;
+
+       }
+       .green:hover{
+        z-index: 3;
+       }
+       .blue:hover{
+        z-index: 2;
+       }
+       .red:hover{
+        z-index: 1;
+       }
+
+
+    </style>
+</head>
+<body>
+
+    <!-- z-indexx -->
+     <main>
+        <section>
+            <div class="container">
+              <div class="blue">
+
+              </div>
+              <div class="red">
+
+              </div>
+              <div class="green">
+
+              </div>
+            </div>
+           
+        </section>
+     </main>
+    
+</body>
+</html>
